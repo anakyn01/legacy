@@ -1,0 +1,14 @@
+package sm.ac.crud.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class HwangController {
+	
+	@GetMapping("/")//url을 얻을때 사용
+	public String home() {//홈 함수 
+		return "home";//src/main/webapp/WEB-INF/views/home.jsp
+	}
+
+}

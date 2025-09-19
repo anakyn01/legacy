@@ -1,0 +1,11 @@
+package sm.ac.crud.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HwangController {
+	
+	@GetMapping("/")//url을 얻을때 사용
+	
+
+}
